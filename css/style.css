@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* fonts */
+h2,
+li {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+h3,
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+section {
+  margin-bottom: 1rem;
+}
+
+/* Definition of the header */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/muse_fond.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* couleur du bandeau de nav */
+header > nav {
+  background-color: #463f3a;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+/* nav position */
+header > nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* dimiution of the logo in the nav */
+header > nav > ul > li {
+  width: 15%;
+  text-align: center;
+}
+header > nav > ul > li > img {
+  width: 100%;
+}
+
+/* section 1 */
+#liveTour {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+/* Modify 2 div in my liveTour Section */
+#photoPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+}
+#pSection1 {
+  width: 50%;
+  text-align: center;
+}
+#article {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#firstPart {
+  width: 50%;
+}
+#firstPart > img {
+  width: 100%;
+}
+/* precision for the alignment if the 2 images */
+.section1 {
+  width: 18.3rem;
+}
+.section1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* .section1 > img{
+    width: 100%;
+} */
+
+/* section 2 */
+section:nth-child(2) {
+  background-color: #463f3a;
+}
+section:nth-child(2) > div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* modify the img of the new album */
+.section2 > div:nth-child(3) {
+  width: 30%;
+}
+section:nth-child(2) > div > div > img {
+  width: 100%;
+}
+.section2 > div {
+  width: 50%;
+  color: turquoise;
+  text-align: center;
+  margin: 2rem 0;
+}
+.section2 > div > p {
+  background-color: #da3b99;
+  width: 14rem;
+  height: 5rem;
+  padding-top: 1rem;
+  border: solid turquoise;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  border-radius: 100vmax;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+/* section 3 */
+/* first article */
+#discography {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+#discography > div {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+#discography > div > div {
+  width: 30%;
+}
+#discography > div > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* second article of the last section */
+#news {
+  width: 80%;
+  margin: auto;
+}
+#news > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+#news >div >div{
+    width: 30%;
+}
+#news > div > div > img {
+  width: 100%;
+}
+
+/* create the footer */
+footer {
+  background-color: #463f3a;
+}
+footer > div {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer > div> div{
+    width: 15%;
+}
+footer > div > div> img {
+  width: 100%;
+}
+
+footer > div > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+footer > div> nav> ul> li{
+  width: 3rem;
+}
+.linksFoot{
+    width: 100%;
+}
+
+#returnTop {
+  transform: rotate(180deg);
+  width: 40%;
+}
